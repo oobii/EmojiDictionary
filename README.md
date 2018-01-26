@@ -1,6 +1,7 @@
 # EmojiDictionary
 UITableViewController
-https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/TableView_iPhone/ManageReorderRow/ManageReorderRow.html#//apple_ref/doc/uid/TP40007451-CH11-SW1
+
+[Table View Programming Guide for iOS]https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/TableView_iPhone/ManageReorderRow/ManageReorderRow.html#//apple_ref/doc/uid/TP40007451-CH11-SW1
 
 We created a project. Dleted the default View Controller from the Main.storyboard. Drag Navigation controller on to the Storyboard scene, it takes with it a Table View Controller. Set the navigation controller to be the initial view controlle
 Then add a new Cocoa Touch Class called "EmojiTableViewController" as a subclass of UITableViewController. Back in your storyboard, select the table view controller and assign EmojiTableViewController as its custom class.
